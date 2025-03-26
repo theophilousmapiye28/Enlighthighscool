@@ -41,6 +41,7 @@ const Contact = () => {
         setNotification("Error! Please try again.");
       }
     } catch (error) {
+      console.error(error);  // Logs the error to the console
       setNotification("Error! Please try again.");
     }
 
